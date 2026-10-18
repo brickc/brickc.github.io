@@ -115,7 +115,7 @@ I consult for companies, universities, and governments with clients such as the 
 
 [**Societal Impact**](https://www.altmetric.com/explorer/report/d26a06af-73f4-4779-bfbd-8d246fd62531)
 
-[**CV**](https://www.dropbox.com/scl/fi/5j5sjjy6h8tr8bwnykf0v/Brick-CV.docx?rlkey=rj7lcwaec35qf713riy46tco7&dl=0)
+[**CV**](https://www.dropbox.com/scl/fi/5j5sjjy6h8tr8bwnykf0v/Brick-CV.docx?rlkey=rj7lcwaec35qf713riy46tco7&raw=1)
 
 </div>
 <div class="col c10" markdown="1">

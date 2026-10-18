@@ -7,7 +7,7 @@ permalink: /oral-presentations
 ## Empirical thesis grading
 Most thesis presentations are 10-12 minutes long followed by question-and-answer. Do not present all of your results: just the main storyline. Focus on understandability.
 
-Here is a [good sample presentation](https://www.dropbox.com/s/a0ey0v5h99bpa5g/sample%20thesis%20presentation.pptx?dl=0) from years past as an example. This is about the right level of depth and detail without getting too much in the weeds of big output tables. Plan for about one slide max per minute.
+Here is a [good sample presentation](https://www.dropbox.com/s/a0ey0v5h99bpa5g/sample%20thesis%20presentation.pptx?raw=1) from years past as an example. This is about the right level of depth and detail without getting too much in the weeds of big output tables. Plan for about one slide max per minute.
 
 Figures and tables should always include *N* or *df*. P-values can be used to indicate significance, but effect sizes are usually more important for interpretation, and either way, avoid getting bogged down in technical details.  
   

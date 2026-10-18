@@ -53,7 +53,7 @@ Also see the [Thesis Quality](/thesis-quality) page for advanced suggestions.
 
       intuition --\> theory --\> definition --\> operationalization --\> measurement --\> analysis --\> interpretation
 
-5.  Mediation or moderation in SPSS using PROCESS? Select your model and also see [this handout](https://www.dropbox.com/s/apbcdic825o00a4/Hayes%20-%20Moderation%20and%20mediation%20in%20PROCESS.pdf?dl=0). Here’s an [example of the output](https://www.dropbox.com/s/zh2fn0euvrxztc2/process%20output%20and%20email%20text.docx?dl=0). Interpretation: "full" and "partial" mediation terms are deprecated since at least 2012. Instead, the advice is to interpret the magnitude and direction of effect sizes and compare against what was expected, along with the 95% CIs to get a sense of the precision of the estimates. That is, there is no easy summary. See ‘Mediation’ section below for more.
+5.  Mediation or moderation in SPSS using PROCESS? Select your model and also see [this handout](https://www.dropbox.com/s/apbcdic825o00a4/Hayes%20-%20Moderation%20and%20mediation%20in%20PROCESS.pdf?raw=1). Here’s an [example of the output](https://www.dropbox.com/s/zh2fn0euvrxztc2/process%20output%20and%20email%20text.docx?raw=1). Interpretation: "full" and "partial" mediation terms are deprecated since at least 2012. Instead, the advice is to interpret the magnitude and direction of effect sizes and compare against what was expected, along with the 95% CIs to get a sense of the precision of the estimates. That is, there is no easy summary. See ‘Mediation’ section below for more.
 
 6.  Between-subjects moderation/interaction? The design is probably under-powered. See [this blog](https://approachingblog.wordpress.com/2018/01/24/powering-your-interaction-2/). I wrote [instructions for running interactions](https://docs.google.com/document/d/1RGQSjB10yVbZbWHLOXXXscPJqVizyaIiJUcjKx6dso0/edit) in SPSS.
 
@@ -65,7 +65,7 @@ Also see the [Thesis Quality](/thesis-quality) page for advanced suggestions.
 
     - interpreting effect sizes and converting between linear and logistic: [scientificallysound.org/2017/07/27/cohens-d-how-interpretation](https://scientificallysound.org/2017/07/27/cohens-d-how-interpretation/); [rpsychologist.com/d3/cohend](https://rpsychologist.com/d3/cohend/); [katherinemwood.shinyapps.io/effect_size/](https://katherinemwood.shinyapps.io/effect_size/); [psychometrica.de/effect_size.html](https://www.psychometrica.de/effect_size.html) (#14); [ncbi.nlm.nih.gov/pubmed/11113947](https://www.ncbi.nlm.nih.gov/pubmed/11113947)
 
-10. Include a power analysis. Here is a [slide deck tutorial on power](https://www.dropbox.com/s/m52dgdgqssgzsum/power%20tutorial.pptx?dl=0) by me, including code in R. Below is how a complete report looks (by [Guy Prochilo](https://twitter.com/GuyProchilo/status/1292780240977223681)). Play around with [an interactive tool](https://rpsychologist.com/d3/pdist/) for the distribution of p-values when comparing two groups.
+10. Include a power analysis. Here is a [slide deck tutorial on power](https://www.dropbox.com/s/m52dgdgqssgzsum/power%20tutorial.pptx?raw=1) by me, including code in R. Below is how a complete report looks (by [Guy Prochilo](https://twitter.com/GuyProchilo/status/1292780240977223681)). Play around with [an interactive tool](https://rpsychologist.com/d3/pdist/) for the distribution of p-values when comparing two groups.
 
 ## Mediation
 

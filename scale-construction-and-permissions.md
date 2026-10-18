@@ -6,7 +6,7 @@ permalink: /scale-construction-and-permissions
 
 # Scale Construction and Permissions
 
-## Recurring Pro-environmental Behavior Scale (REBS; [Brick et al., 2017](https://linkinghub.elsevier.com/retrieve/pii/S0272494417300543); [PDF](https://www.dropbox.com/s/zcyly1fwobmfo12/Brick%202017%20%E2%80%9CGreen%20to%20be%20seen%E2%80%9D%20and%20%E2%80%9Cbrown%20to%20keep%20down%E2%80%9D%20visibility%20moderates%20the%20effect%20of%20identity%20on%20pro-environmental%20behavior.pdf?dl=0))
+## Recurring Pro-environmental Behavior Scale (REBS; [Brick et al., 2017](https://linkinghub.elsevier.com/retrieve/pii/S0272494417300543); [PDF](https://www.dropbox.com/s/zcyly1fwobmfo12/Brick%202017%20%E2%80%9CGreen%20to%20be%20seen%E2%80%9D%20and%20%E2%80%9Cbrown%20to%20keep%20down%E2%80%9D%20visibility%20moderates%20the%20effect%20of%20identity%20on%20pro-environmental%20behavior.pdf?raw=1))
 
 All the scoring info is in the article and appendix. The pro-environmental behavior measure is a mean composite from the non-missing REBS items. There is no separate manual or scoring sheet or any other materials. Good luck with your research.
 

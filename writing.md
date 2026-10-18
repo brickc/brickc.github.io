@@ -10,7 +10,7 @@ permalink: /writing
 
 ## Strong Scientific Writing
 
-*This page is about sentence-level writing. Also see* [*Thesis Quality*](https://www.cameronbrick.com/thesis-quality)*;* [*Powerpoint Slides on Manuscript Structure*](https://www.dropbox.com/s/mzkx82qka6bc0wn/Workshop%207%20Structural%20writing%20tips.pptx?dl=0)*;* [*Dense Correlation Table in APA 7*](https://www.dropbox.com/s/epcw3yroxbjtdn7/APA%207%20correlation%20table.docx?dl=0) *(Word); and external resource* [*The CARS Method*](https://libguides.usc.edu/writingguide/CARS)*.*
+*This page is about sentence-level writing. Also see* [*Thesis Quality*](https://www.cameronbrick.com/thesis-quality)*;* [*Powerpoint Slides on Manuscript Structure*](https://www.dropbox.com/s/mzkx82qka6bc0wn/Workshop%207%20Structural%20writing%20tips.pptx?raw=1)*;* [*Dense Correlation Table in APA 7*](https://www.dropbox.com/s/epcw3yroxbjtdn7/APA%207%20correlation%20table.docx?raw=1) *(Word); and external resource* [*The CARS Method*](https://libguides.usc.edu/writingguide/CARS)*.*
 
 Editing your professional writing using the Paramedic Method can make your prose easier to read. Sentences that are easier to understand are more persuasive and more [user-centered](https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/effective_workplace_writing/index.html).
 

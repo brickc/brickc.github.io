@@ -20,8 +20,8 @@ Make separate Word documents:
 
 - Supplement
 
-- Title page with acknowledgments and CRediT taxonomy (e.g., pp. 11 of our [2021 replication paper](https://www.dropbox.com/s/qyusjlpls9c31ca/Brick%202021%20Self-interest%20Is%20overestimated-two%20successful%20pre-registered%20replications%20and%20extensions%20of%20Miller%20and%20Ratner%20%281998%29.pdf?dl=0)).
+- Title page with acknowledgments and CRediT taxonomy (e.g., pp. 11 of our [2021 replication paper](https://www.dropbox.com/s/qyusjlpls9c31ca/Brick%202021%20Self-interest%20Is%20overestimated-two%20successful%20pre-registered%20replications%20and%20extensions%20of%20Miller%20and%20Ratner%20%281998%29.pdf?raw=1)).
 
-- Cover letter: very brief (e.g., 2-3 paragraphs): what we did, what the advance is). [2021 example](https://www.dropbox.com/s/tdofcp78xcei3kw/CoverLetter_Spillover.docx?dl=0).
+- Cover letter: very brief (e.g., 2-3 paragraphs): what we did, what the advance is). [2021 example](https://www.dropbox.com/s/tdofcp78xcei3kw/CoverLetter_Spillover.docx?raw=1).
 
 The first author typically does the journal submission, but sometimes the senior or corresponding author will do the journal communication.
