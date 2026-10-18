@@ -1,0 +1,72 @@
+# Builds and publishes the site. Runs:
+#  - whenever you commit a change (e.g. editing a page on github.com)
+#  - once a day, to pull the publications list from the CV on Dropbox
+#  - on demand: Actions tab > "Update and publish site" > Run workflow
+name: Update and publish site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 4 * * *"   # daily, 04:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write    # commit the refreshed publications list
+  pages: write       # publish to GitHub Pages
+  id-token: write
+  actions: write     # keepalive: stop GitHub disabling the daily schedule
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  CV_URL: "https://www.dropbox.com/scl/fi/5j5sjjy6h8tr8bwnykf0v/Brick-CV.docx?rlkey=rj7lcwaec35qf713riy46tco7&dl=1"
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pandoc
+        run: sudo apt-get update -q && sudo apt-get install -y -q pandoc python3-bs4
+
+      - name: Download CV from Dropbox
+        run: |
+          curl -fsSL --retry 3 --max-time 60 -o "$RUNNER_TEMP/cv.docx" "$CV_URL"
+          # a .docx is a zip file; anything else means Dropbox returned an error page
+          head -c 2 "$RUNNER_TEMP/cv.docx" | grep -q PK || { echo "::error::Download is not a .docx. Has the Dropbox link changed?"; exit 1; }
+
+      - name: Update publications from CV
+        run: python3 scripts/update_publications.py "$RUNNER_TEMP/cv.docx" _includes/publications.html
+
+      - name: Commit if the publications changed
+        run: |
+          if git diff --quiet; then echo "No changes."; exit 0; fi
+          git config user.name "CV sync"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update publications from CV"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - uses: actions/upload-pages-artifact@v3
+
+      - name: Keep the daily schedule alive
+        if: github.event_name == 'schedule'
+        uses: liskin/gh-workflow-keepalive@v1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

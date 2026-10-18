@@ -1,0 +1,28 @@
+# The site menu. Edit here once; every page picks it up.
+- title: Main
+  url: /
+- title: Open Science
+  url: /openscience
+- title: CV
+  url: https://www.dropbox.com/scl/fi/5j5sjjy6h8tr8bwnykf0v/Brick-CV.docx?rlkey=rj7lcwaec35qf713riy46tco7&dl=0
+- title: Resources
+  children:
+    - { title: Open psych datasets, url: "https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit#gid=0" }
+    - { title: Recruitment and Qualtrics, url: /qualtrics }
+    - { title: Cleaning & Analysis, url: /cleaning-and-analysis }
+    - { title: Writing, url: /writing }
+    - { title: Final Manuscript Steps, url: /final-manuscript-steps }
+    - { title: Promote Accepted Paper, url: /promote-accepted-paper }
+    - { title: Oral Presentations, url: /oral-presentations }
+    - { title: Thesis Quality, url: /thesis-quality }
+    - { title: Literature Search, url: /literature-search }
+    - { title: Letters of Rec, url: /letters-of-rec }
+    - { title: Research Assistants, url: /research-assistants }
+    - { title: Should you get a PhD?, url: /should-you-get-a-phd }
+    - { title: Scale Construction and Permissions, url: /scale-construction-and-permissions }
+- title: Other
+  children:
+    - { title: Scrabble, url: /scrabble }
+    - { title: MRI Brain Scans, url: /mri }
+    - { title: Investing, url: /investing }
+    - { title: Recipes, url: "https://docs.google.com/document/d/1EwcJ9BgXotcCxvy2vDRR_T4s7n5Qtj-Df8-2YXJXxdM/edit#heading=h.afxqw9xeey5s" }

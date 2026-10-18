@@ -1,0 +1,14 @@
+title: Cameron Brick
+description: PhD social psychologist investigating cognition and behavior, collective problems, climate change, communication, and policy
+url: https://www.cameronbrick.com
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+exclude:
+  - scripts
+  - README.md
+  - CNAME.example
