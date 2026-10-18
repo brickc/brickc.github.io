@@ -28,10 +28,10 @@ Our lab investigates how individuals and groups respond to collective-action pro
 
 <hr>
 
+## Larger Grants (PI and co-PI)
+
 <div class="row">
 <div class="col c2" markdown="1">
-
-## Larger Grants (PI and co-PI)
 
 </div>
 <div class="col c10 grants" markdown="1">
