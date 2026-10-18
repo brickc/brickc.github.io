@@ -27,6 +27,8 @@ env:
 jobs:
   build:
     runs-on: ubuntu-24.04
+    outputs:
+      publish: ${{ steps.decide.outputs.publish }}
     steps:
       - uses: actions/checkout@v4
 
@@ -43,19 +45,35 @@ jobs:
         run: python3 scripts/update_publications.py "$RUNNER_TEMP/cv.docx" _includes/publications.html
 
       - name: Commit if the publications changed
+        id: commit
         run: |
-          if git diff --quiet; then echo "No changes."; exit 0; fi
+          if git diff --quiet; then echo "No changes."; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
           git config user.name "CV sync"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -am "Update publications from CV"
           git push
 
+      # Daily runs only republish when the publications changed;
+      # edits and manual runs always republish.
+      - name: Decide whether to publish
+        id: decide
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "${{ steps.commit.outputs.changed }}" = "true" ]; then
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "publish=false" >> "$GITHUB_OUTPUT"; echo "Nothing changed; skipping publish."
+          fi
+
       - uses: actions/configure-pages@v5
+        if: steps.decide.outputs.publish == 'true'
       - uses: actions/jekyll-build-pages@v1
+        if: steps.decide.outputs.publish == 'true'
         with:
           source: ./
           destination: ./_site
       - uses: actions/upload-pages-artifact@v3
+        if: steps.decide.outputs.publish == 'true'
 
       - name: Keep the daily schedule alive
         if: github.event_name == 'schedule'
@@ -63,6 +81,7 @@ jobs:
 
   deploy:
     needs: build
+    if: needs.build.outputs.publish == 'true'
     runs-on: ubuntu-24.04
     environment:
       name: github-pages
