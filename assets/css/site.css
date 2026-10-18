@@ -15,6 +15,10 @@
   --bg:#f1eeea; --text:#1d1d1b; --muted:#6b6863; --rule:#cfcac3; --link:#4a5fc1; --panel:#fbfaf8;
   --max:1100px; --gutter:clamp(16px,4vw,50px);
 }
+/* Follows the visitor's system setting: dark only if their device is in dark mode */
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#1c1b19; --text:#e9e5df; --muted:#a29d95; --rule:#3d3a36; --link:#9aa9f0; --panel:#262522; }
+}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--text);font:400 16px/1.6 Jost,"Futura","Century Gothic",system-ui,sans-serif}
