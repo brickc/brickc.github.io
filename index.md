@@ -8,7 +8,7 @@ redirect_from:
 <div class="row">
 <div class="col c4" markdown="1">
 
-![](/assets/img/2024-05-uva-pple-headshot-cameron-cropped.jpeg)
+![Cameron Brick](/assets/img/2024-05-uva-pple-headshot-cameron-cropped.jpeg)
 
 </div>
 <div class="col c8" markdown="1">

@@ -27,17 +27,17 @@ That said, higher education in psychology remains a great plan. The subject matt
 
 See how much PhD positions have increased compared to the Dutch academic jobs that produce them. This means there is a big disconnect between how many people are being trained, many of whom want to work in academia, and how many jobs there are.
 
-[![](/assets/img/11.jpg)](https://www.aob.nl/en/actueel/artikelen/promotiestelsel-raakt-oververhit/)
+[![Chart: growth in Dutch PhD positions compared with academic jobs](/assets/img/11.jpg)](https://www.aob.nl/en/actueel/artikelen/promotiestelsel-raakt-oververhit/)
 
 <https://www.aob.nl/en/actueel/artikelen/promotiestelsel-raakt-oververhit/>
 
 Next, what are your chances of making assistant professor in the Netherlands after earning a PhD? Not great: the majority of PhDs get jobs outside of universities during or after the PhD, or after a postdoc or lecturer position (see below). More assistant professors leave academia or retire than get promoted further. However, some of these candidates never intended to stay in academia.
 
-![](/assets/img/academic-ranks.png)
+![Chart: Dutch academic ranks and career transitions](/assets/img/academic-ranks.png)
 
 Next, see this next chart from the [Donders Institute](https://www.ru.nl/donders/) (NL), explaining where PhD graduates end up after 1, 5, and 10 years. There is a lot of missing data in both these graphs. If you have any newer ones, please tell me.
 
-![](/assets/img/fr5-jmxwiaakhf3.jpg)
+![Chart: where Donders Institute PhD graduates work after 1, 5, and 10 years](/assets/img/fr5-jmxwiaakhf3.jpg)
 
 ## Academic Career Advice
 

@@ -59,8 +59,8 @@ Paper with guidelines: [Snyder (2019) Literature review as a research methodolog
 
 We recommend the PRISMA guidelines and the guides by Janneke Staaks from UvA.
 
-Prisma flow chart [http://www.prisma-statement.org/PRISMAStatement/FlowDiagram.aspx](http://www.prisma-statement.org/PRISMAStatement/FlowDiagram.aspx)
+Prisma flow chart [https://www.prisma-statement.org/prisma-2020-flow-diagram](https://www.prisma-statement.org/prisma-2020-flow-diagram)
 
-Paper structure and check list: [http://www.prisma-statement.org/PRISMAStatement/Checklist.aspx](http://www.prisma-statement.org/PRISMAStatement/Checklist.aspx)
+Paper structure and check list: [https://www.prisma-statement.org/prisma-2020-checklist](https://www.prisma-statement.org/prisma-2020-checklist)
 
 Janneke’s guide: ​​[https://osf.io/49t8x/](https://osf.io/49t8x/)
