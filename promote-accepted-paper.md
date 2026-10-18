@@ -42,4 +42,4 @@ Manuscript stage
 
 - Individually write highly relevant academics, or your collaborators. They’re generally happy to hear from you.
 
-- Write easy blogs (e.g., [Psych Today](https://www.psychologytoday.com/intl/blog/grasping-risk); [Medium](https://medium.com/@brickc); you are welcome to write a guest article on the linked accounts if you want to use my followers) or pitch to competitive blogs (e.g., [The Conversation](https://theconversation.com/climate-change-seeing-the-planet-break-down-is-depressing-heres-how-to-turn-your-pain-into-action-114407); Grist; Vox)
+- Write easy blogs (e.g., [Psych Today](https://www.psychologytoday.com/us/blog/grasping-risk); [Medium](https://medium.com/@brickc); you are welcome to write a guest article on the linked accounts if you want to use my followers) or pitch to competitive blogs (e.g., [The Conversation](https://theconversation.com/climate-change-seeing-the-planet-break-down-is-depressing-heres-how-to-turn-your-pain-into-action-114407); Grist; Vox)

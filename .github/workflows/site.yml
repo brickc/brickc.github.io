@@ -1,6 +1,6 @@
 # Builds and publishes the site. Runs:
 #  - whenever you commit a change (e.g. editing a page on github.com)
-#  - once a day, to pull the publications list from the CV on Dropbox
+#  - once a day, to pull the CV from Dropbox (publications list + cv.pdf)
 #  - on demand: Actions tab > "Update and publish site" > Run workflow
 name: Update and publish site
 
@@ -44,14 +44,33 @@ jobs:
       - name: Update publications from CV
         run: python3 scripts/update_publications.py "$RUNNER_TEMP/cv.docx" _includes/publications.html
 
-      - name: Commit if the publications changed
+      # cv.pdf is only regenerated when the .docx on Dropbox has changed
+      # (cv.sha256 records which version the current PDF was made from).
+      - name: Check whether the CV changed
+        id: cvcheck
+        run: |
+          new=$(sha256sum "$RUNNER_TEMP/cv.docx" | cut -d' ' -f1)
+          old=$(cat cv.sha256 2>/dev/null || true)
+          if [ "$new" = "$old" ]; then echo "changed=false" >> "$GITHUB_OUTPUT"; else echo "changed=true" >> "$GITHUB_OUTPUT"; echo "$new" > cv.sha256; fi
+
+      - name: Convert CV to PDF
+        if: steps.cvcheck.outputs.changed == 'true'
+        run: |
+          sudo apt-get install -y -q --no-install-recommends libreoffice-writer-nogui fonts-liberation fonts-crosextra-carlito fonts-crosextra-caladea
+          cp "$RUNNER_TEMP/cv.docx" "$RUNNER_TEMP/cv-src.docx"
+          soffice --headless --convert-to pdf --outdir "$RUNNER_TEMP" "$RUNNER_TEMP/cv-src.docx"
+          test -s "$RUNNER_TEMP/cv-src.pdf" || { echo "::error::PDF conversion failed"; exit 1; }
+          mv "$RUNNER_TEMP/cv-src.pdf" cv.pdf
+
+      - name: Commit if the CV or publications changed
         id: commit
         run: |
-          if git diff --quiet; then echo "No changes."; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git add -A _includes/publications.html cv.pdf cv.sha256
+          if git diff --cached --quiet; then echo "No changes."; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
           echo "changed=true" >> "$GITHUB_OUTPUT"
           git config user.name "CV sync"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Update publications from CV"
+          git commit -m "Update CV and publications from Dropbox"
           git push
 
       # Daily runs only republish when the publications changed;

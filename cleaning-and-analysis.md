@@ -19,7 +19,7 @@ permalink: /cleaning-and-analysis
 
 2.  Acquire the data. Never modify the raw data: work with copies.
 
-3.  Ideal: use scripts for cleaning and analysis (SPSS syntax, R code, etc.). Minimum expectations: write down cleaning steps in words in a list.
+3.  Ideal: use scripts for cleaning and analysis (e.g., R code). Minimum expectations: write down cleaning steps in words in a list.
 
 ## Items
 
@@ -53,15 +53,13 @@ Also see the [Thesis Quality](/thesis-quality) page for advanced suggestions.
 
       intuition --\> theory --\> definition --\> operationalization --\> measurement --\> analysis --\> interpretation
 
-5.  Mediation or moderation in SPSS using PROCESS? Select your model and also see [this handout](https://www.dropbox.com/s/apbcdic825o00a4/Hayes%20-%20Moderation%20and%20mediation%20in%20PROCESS.pdf?raw=1). Here’s an [example of the output](https://www.dropbox.com/s/zh2fn0euvrxztc2/process%20output%20and%20email%20text.docx?raw=1). Interpretation: "full" and "partial" mediation terms are deprecated since at least 2012. Instead, the advice is to interpret the magnitude and direction of effect sizes and compare against what was expected, along with the 95% CIs to get a sense of the precision of the estimates. That is, there is no easy summary. See ‘Mediation’ section below for more.
+6.  Between-subjects moderation/interaction? The design is probably under-powered. See [this blog](https://approachingblog.wordpress.com/2018/01/24/powering-your-interaction-2/).
 
-6.  Between-subjects moderation/interaction? The design is probably under-powered. See [this blog](https://approachingblog.wordpress.com/2018/01/24/powering-your-interaction-2/). I wrote [instructions for running interactions](https://docs.google.com/document/d/1RGQSjB10yVbZbWHLOXXXscPJqVizyaIiJUcjKx6dso0/edit) in SPSS.
-
-7.  Do you have categorical predictors with more than two levels? You will need simple or dummy coding to do linear analyses: [stats.idre.ucla.edu/spss/faq/coding-systems-for-categorical-variables-in-regression-analysis-2/](https://stats.idre.ucla.edu/spss/faq/coding-systems-for-categorical-variables-in-regression-analysis-2/)
+7.  Do you have categorical predictors with more than two levels? You will need simple or dummy coding to do linear analyses: [UCLA guide to coding systems for categorical variables (R)](https://stats.oarc.ucla.edu/r/library/r-library-contrast-coding-systems-for-categorical-variables/)
 
 8.  Metadata: If using the [open datasets](https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit#gid=0) resource, please help the community by going back and improving the detail in the sheet.
 
-9.  Logistic regression: [https://statistics.laerd.com/spss-tutorials/binomial-logistic-regression-using-spss-statistics.php](https://statistics.laerd.com/spss-tutorials/binomial-logistic-regression-using-spss-statistics.php)
+9.  Logistic regression: [UCLA logistic regression guide (R)](https://stats.oarc.ucla.edu/r/dae/logit-regression/)
 
     - interpreting effect sizes and converting between linear and logistic: [scientificallysound.org/2017/07/27/cohens-d-how-interpretation](https://scientificallysound.org/2017/07/27/cohens-d-how-interpretation/); [rpsychologist.com/d3/cohend](https://rpsychologist.com/d3/cohend/); [katherinemwood.shinyapps.io/effect_size/](https://katherinemwood.shinyapps.io/effect_size/); [psychometrica.de/effect_size.html](https://www.psychometrica.de/effect_size.html) (#14); [ncbi.nlm.nih.gov/pubmed/11113947](https://www.ncbi.nlm.nih.gov/pubmed/11113947)
 

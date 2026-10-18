@@ -57,8 +57,6 @@ To get a research postdoc, it is ideal but rare to get your own funding, and the
 
 4.  [APA Div34 facebook](https://www.facebook.com/groups/APADivision34/), [listserv](https://www.apadivisions.org/division-34/about/list)
 
-5.  [SPSP Sustainability Forum](https://www.spsp.org/membership/shared-interest-groups)
-
 6.  IAAP Division 4
 
 7.  National EnvPsych Association mailing lists (DGPs Fachgruppe Umwelt & IPU in Germany/Austria/(I think Switzerland has one?), [PsicAmb](https://www.psicamb.org/index.php?lang=en): (Spanish-speaking), Norsk miljøpsykologisk nettverk (Norway), more?)
@@ -71,8 +69,6 @@ To get a faculty job, consider teaching-heavy roles and related disciplines. Don
 
 [https://www.academictransfer.com](https://www.academictransfer.com/)
 
-[https://www.uva.nl/en/research/phd/obtaining-a-phd-at-the-uva/funding-and-scholarships/funding-and-scholarships.html](https://www.uva.nl/en/research/phd/obtaining-a-phd-at-the-uva/funding-and-scholarships/funding-and-scholarships.html)
-
 Seriously consider non-academic positions in behavioral change and environment, such as government and NGO. Most people dismiss these paths too quickly, in part because they haven’t met people doing those jobs. I am not sure I would choose the same career again if I'd known how narrow the opportunities are in academia. Develop a [LinkedIn profile](https://www.linkedin.com/in/cameronbrick/) and start asking people adjacent to your training for advice. Look for people you trained with that are no longer in academia. CVs should turn into much briefer resumes focused around specific skills. When I was considering this more heavily, I easily found strangers online who were happy to talk about it. And good luck!
 
 **Outside Academia**
@@ -83,7 +79,7 @@ Seriously consider non-academic positions in behavioral change and environment, 
 
 [unjobs.org](http://unjobs.org/) (not just UN)
 
-[SPSP Non-Academic Job Market](http://spsp.org/news-center/member-newsletters/3-22-2018/nonacademic-job-market)
+[SPSP Non-Academic Job Market](https://spsp.org/non-academic-job-market)
 
 [Non-Academic Career Paths](https://duckofminerva.com/2019/10/non-academic-career-paths-the-dirty-secret-of-academia.html)
 

@@ -20,7 +20,7 @@ This is a major challenge. Don't try to catch everything. Instead, make a workfl
 
 ## Literature Search
 
-Are you familiar with performing a literature search? The purpose is a broad sweep to identify relevant research. At this stage, don't actually read the papers, just take notes about them. Also read about [Boolean search logic](http://www.internettutorials.net/boolean.asp), truncation, and wildcards. It’s especially importantly to use “” to form phrases: notice how different your results are in Google when you search [social memory](http://www.google.com/search?q=social+memory) vs. [“social memory”](http://www.google.com/search?q=%22social+memory%22).  
+Are you familiar with performing a literature search? The purpose is a broad sweep to identify relevant research. At this stage, don't actually read the papers, just take notes about them. Also read about [Boolean search logic](https://libguides.uidaho.edu/boolean), truncation, and wildcards. It’s especially importantly to use “” to form phrases: notice how different your results are in Google when you search [social memory](http://www.google.com/search?q=social+memory) vs. [“social memory”](http://www.google.com/search?q=%22social+memory%22).  
 
 1.  Start by reading about the research question. If the area is *self-esteem*, read that article on Wikipedia to get oriented to the key concepts and terms.
 

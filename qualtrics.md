@@ -26,11 +26,11 @@ Embedded data from Prolific
 
 ***Paid***
 
-1.  Qualtrics, Kantar, Nielsen, YouGov, Gallup, Harris Polls, Respondi, Dyanata, [MSI](https://msi-aci.com), [Prolific](https://prolific.co), [MTurk](https://www.mturk.com) (these last three are perhaps most affordable)
+1.  Qualtrics, Kantar, Nielsen, YouGov, Gallup, Harris Polls, Respondi, Dyanata, [MSI](https://msi-aci.com), [Prolific](https://www.prolific.com) (these last two are perhaps most affordable)
 
 ## Qualtrics
 
-1.  If using MTurk or Prolific, use [**embedded data**](https://researcher-help.prolific.co/hc/en-gb/articles/360009220993-Recording-participants-Prolific-IDs-in-your-study-survey) to automatically capture information like their Participant ID. Embedded data can also capture mobile vs. desktop, where they clicked on the survey link from, etc. See image above.
+1.  If using Prolific, use [**embedded data**](https://researcher-help.prolific.com/en/articles/445133-recording-prolific-id-s) to automatically capture information like their Participant ID. Embedded data can also capture mobile vs. desktop, where they clicked on the survey link from, etc. See image above.
 
 2.  Options: Security: **Anonymize responses**: “Don’t record respondents’ IP Address, location data, and contact info”
 

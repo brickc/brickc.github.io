@@ -4,7 +4,7 @@
 - title: Open Science
   url: /openscience
 - title: CV
-  url: https://www.dropbox.com/scl/fi/5j5sjjy6h8tr8bwnykf0v/Brick-CV.docx?rlkey=rj7lcwaec35qf713riy46tco7&raw=1
+  url: /cv.pdf
 - title: Resources
   children:
     - { title: Open psych datasets, url: "https://docs.google.com/spreadsheets/d/1ejOJTNTL5ApCuGTUciV0REEEAqvhI2Rd2FCoj7afops/edit#gid=0" }

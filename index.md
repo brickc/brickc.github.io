@@ -8,7 +8,7 @@ redirect_from:
 <div class="row">
 <div class="col c4" markdown="1">
 
-![Cameron Brick](/assets/img/2024-05-uva-pple-headshot-cameron-cropped.jpeg)
+![Cameron Brick](/assets/img/headshot.jpg)
 
 </div>
 <div class="col c8" markdown="1">
@@ -36,25 +36,25 @@ Our lab investigates how individuals and groups respond to collective-action pro
 </div>
 <div class="col c10 grants" markdown="1">
 
-2026 — 30 NWO-KIC: *R3CIRCLE, Circular textile economy (€2,509,280)*
+2026 – 30 NWO-KIC: *R3CYCLE, Circular textile economy (€2,509,280)*
 
-2026 — 27 NWO Sustainable Science Fund: *Aviation benchmarking in Dutch universities (€50,000)*
+2026 – 27 NWO Sustainable Science Fund: *Aviation benchmarking in Dutch universities (€50,000)*
 
-2026 — 30 Horizon Europe: [*REMEDIES*](https://remedies-for-ocean.eu/) *Waterfront restoration (€16.752.133)*
+2026 – 30 Horizon Europe: [*REMEDIES*](https://remedies-for-ocean.eu/) *Waterfront restoration (€16,752,133)*
 
-2024 — 29 NWO SSH-L: *Reinforcement learning of pro-environmental behavior (€800.000)*
+2024 – 29 NWO SSH-L: *Reinforcement learning of pro-environmental behavior (€800,000)*
 
-2024 — 25 EU Commission: [*EU harmonized consumer waste labels*](https://policy-lab.ec.europa.eu/news/harmonising-waste-sorting-labels-across-eu-2023-05-02_en) *(€575.000)*
+2024 – 25 EU Commission: [*EU harmonized consumer waste labels*](https://policy-lab.ec.europa.eu/news/harmonising-waste-sorting-labels-across-eu-2023-05-02_en) *(€575,000)*
 
-2024 — 28 UvA Research Priority Area: [*BRIDGES* *Sustainability*](https://csds.uva.nl/research/csds-research.html) *(€1.250.000)*
+2024 – 28 UvA Research Priority Area: [*BRIDGES* *Sustainability*](https://csds.uva.nl/research/csds-research.html) *(€1,250,000)*
 
-2023 — 25 UvA Sustainable Prosperity: [*SISTEM-NL*](https://www.uva.nl/over-de-uva/over-de-universiteit/strategie/themagerichte-samenwerking/duurzame-welvaart.html#Vermindering-van-de-uitstoot-van-textiele-microplastics-in-Nederland-SISTEMNL) *Microfibers from clothes washing (€400.000)*
+2024 – 26 UvA Sustainable Prosperity: [*SISTEM-NL*](https://www.uva.nl/over-de-uva/over-de-universiteit/strategie/themagerichte-samenwerking/duurzame-welvaart.html#Vermindering-van-de-uitstoot-van-textiele-microplastics-in-Nederland-SISTEMNL) *Microfibers from clothes washing (€400,000)*
 
-2023 — 27 OCW: [*Starter Grant*](https://delta.tudelft.nl/en/article/government-allocates-billions-earmarked-higher-education-and-research)*:* *Climate activism behavior (€414.000)*
+2023 – 27 OCW: [*Starter Grant*](https://delta.tudelft.nl/en/article/government-allocates-billions-earmarked-higher-education-and-research)*:* *Climate activism behavior (€414,000)*
 
-2023 — 27 Horizon Europe: [*MOSAIC*](https://www.mosaic-europe.eu/) *Motivations and land-use (€6.937.000)*
+2023 – 27 Horizon Europe: [*MOSAIC*](https://www.mosaic-europe.eu/) *Motivations and land-use (€6,937,000)*
 
-2022 — 26 NWO-KIC: [*MIWATEX*](https://www.nwo.nl/en/projects/kich1ed0120006) *Poly-cotton clothing recycling (€1.294.000)*
+2022 – 26 NWO-KIC: [*MIWATEX*](https://www.nwo.nl/en/projects/kich1ed0120006) *Poly-cotton clothing recycling (€1,294,000)*
 
 </div>
 </div>
@@ -73,11 +73,11 @@ I teach in BSc *Social Psychology*, BSc *Politics, Psychology, Law & Economics*,
 
 - [Interested in doing a PhD here?](/should-you-get-a-phd)
 
-- PhD students: [Anna Bosshard](https://scholar.google.com/citations?hl=en&user=kVr-e_4AAAAJ), [Anna Sach](https://psyres.uva.nl/profile/s/a/a.a.sach/a.a.sach.html), [Linli Zhou](https://www.uva.nl/profiel/z/h/l.zhou/l.zhou.html); [Rana Abo Seada](https://www.uva.nl/en/profile/a/b/r.abo-seada/r.abo-seada.html)
+- PhD students: [Anna Bosshard](https://scholar.google.com/citations?hl=en&user=kVr-e_4AAAAJ), [Anna Sach](https://psyres.uva.nl/profile/s/a/a.a.sach/a.a.sach.html), Linli Zhou; [Rana Abo Seada](https://www.uva.nl/en/profile/a/b/r.abo-seada/r.abo-seada.html)
 
 - PhD graduates: [Maria Zwicker](https://scholar.google.com/citations?hl=en&oi=ao&user=frgUWHkAAAAJ), [Anna Castiglione](https://webapps.unitn.it/du/it/Persona/PER0229494)
 
-- Postdocs: [Alaa Aldoh](https://www.uva.nl/en/profile/a/l/a.aldoh/a.aldoh.html)
+- Postdocs: Alaa Aldoh
 
 </div>
 </div>
@@ -115,7 +115,7 @@ I consult for companies, universities, and governments with clients such as the 
 
 [**Societal Impact**](https://www.altmetric.com/explorer/report/d26a06af-73f4-4779-bfbd-8d246fd62531)
 
-[**CV**](https://www.dropbox.com/scl/fi/5j5sjjy6h8tr8bwnykf0v/Brick-CV.docx?rlkey=rj7lcwaec35qf713riy46tco7&raw=1)
+[**CV**](/cv.pdf)
 
 </div>
 <div class="col c10" markdown="1">
