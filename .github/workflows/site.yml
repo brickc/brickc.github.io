@@ -25,12 +25,13 @@ env:
   CV_URL: "https://www.dropbox.com/scl/fi/5j5sjjy6h8tr8bwnykf0v/Brick-CV.docx?rlkey=rj7lcwaec35qf713riy46tco7&dl=1"
 
 jobs:
-  build:
+  # Step 1: pull the CV from Dropbox and commit any changes (fast; runs every time)
+  sync:
     runs-on: ubuntu-24.04
     outputs:
       publish: ${{ steps.decide.outputs.publish }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Install pandoc
         run: sudo apt-get update -q && sudo apt-get install -y -q pandoc python3-bs4
@@ -84,23 +85,29 @@ jobs:
             echo "publish=false" >> "$GITHUB_OUTPUT"; echo "Nothing changed; skipping publish."
           fi
 
-      - uses: actions/configure-pages@v5
-        if: steps.decide.outputs.publish == 'true'
-      - uses: actions/jekyll-build-pages@v1
-        if: steps.decide.outputs.publish == 'true'
-        with:
-          source: ./
-          destination: ./_site
-      - uses: actions/upload-pages-artifact@v3
-        if: steps.decide.outputs.publish == 'true'
-
       - name: Keep the daily schedule alive
         if: github.event_name == 'schedule'
         uses: liskin/gh-workflow-keepalive@v1
 
+  # Step 2: build the site (only when something needs publishing)
+  build:
+    needs: sync
+    if: needs.sync.outputs.publish == 'true'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main   # includes the CV sync commit, if step 1 made one
+      - uses: actions/configure-pages@v5
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - uses: actions/upload-pages-artifact@v4
+
+  # Step 3: publish
   deploy:
     needs: build
-    if: needs.build.outputs.publish == 'true'
     runs-on: ubuntu-24.04
     environment:
       name: github-pages
