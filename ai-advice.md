@@ -12,8 +12,8 @@ AI can help or hurt your learning, depending on how you use it. The goal is to t
 
 ## Before you start
 
-- **Check your university and course AI statements.** AI use is not allowed unless your course explicitly permits it. If the statement is unclear, ask the coordinator.
-- **Use UvA AI Chat.** Commercial tools like ChatGPT are not allowed for your studies.
+- **Check your [university](https://student.uva.nl/en/information/ai-tools-and-your-studies) and course AI statements.** AI use is not allowed unless your course explicitly permits it. If the statement is unclear, ask the coordinator.
+- **Use [UvA AI Chat](https://aichat.uva.nl/)** and follow its [guidelines](https://student.uva.nl/en/information/uva-ai-chat). Commercial tools like ChatGPT are not allowed for your studies.
 - **Protect privacy.** Never paste participant data, personal information, or others' unpublished work into any AI tool, including UvA AI Chat, unless your supervisor has approved it.
 - **Draft first.** If you are writing, write your own first version before opening a chat. Use the AI to workshop your draft, not to generate a starting point.
 - **One task per chat.** Start a new chat for each task and paste a starter below as your first message. Long chats drift away from your instructions.
