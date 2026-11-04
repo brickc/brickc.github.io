@@ -79,6 +79,8 @@ pre code{font-size:inherit}
 .publications li p{margin:0}
 .publications h3.pub-year{font-size:17px;margin:1.6em 0 .6em}
 .publications h3.pub-year:first-child{margin-top:1em}
+ul.pub-recent{list-style:none;padding-left:0;margin:0 0 1em}
+ul.pub-recent li{margin:0 0 .8em}
 
 .site-footer{padding-top:24px;padding-bottom:56px;border-top:1px solid var(--rule);color:var(--muted);font-size:14px;text-align:center}
 

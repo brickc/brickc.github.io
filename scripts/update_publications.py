@@ -1,4 +1,8 @@
-"""Extract the publications section from the CV (.docx) into _includes/publications.html.
+"""Extract the publications section from the CV (.docx).
+
+Writes two files:
+  _includes/publications.html         the full list (shown on /publications)
+  _includes/publications-recent.html  the most recent entries (shown on the front page)
 
 Usage: python3 scripts/update_publications.py CV.docx [_includes/publications.html]
 
@@ -10,6 +14,7 @@ import re, subprocess, sys
 from bs4 import BeautifulSoup
 
 START, END, MIN_ITEMS = 'Peer-Reviewed Publications', 'Media Coverage', 50
+N_RECENT = 5   # entries shown on the front page
 
 cv = sys.argv[1]
 out = sys.argv[2] if len(sys.argv) > 2 else '_includes/publications.html'
@@ -54,3 +59,12 @@ with open(out, 'w', encoding='utf-8') as f:
             'edits are overwritten on the next CV sync. -->\n<div class="publications">\n'
             + result + '\n</div>\n')
 print(f'Wrote {n_items} publications to {out}')
+
+# Front page: the first N_RECENT entries (the CV lists newest first), plus a link to the full list
+items = BeautifulSoup(result, 'html.parser').find_all('li')[:N_RECENT]
+recent_out = out.replace('publications.html', 'publications-recent.html')
+with open(recent_out, 'w', encoding='utf-8') as f:
+    f.write('<!-- Generated from the CV by scripts/update_publications.py. Do not edit by hand. -->\n'
+            '<ul class="publications pub-recent">\n' + '\n'.join(str(li) for li in items) + '\n</ul>\n'
+            f'<p><a href="/publications">All {n_items} publications →</a></p>\n')
+print(f'Wrote {len(items)} recent publications to {recent_out}')

@@ -23,6 +23,8 @@ Our lab studies how individuals and organizations respond to collective-action p
 
 [c.brick@uva.nl](mailto:c.brick@uva.nl) ⬩ [LinkedIn](https://www.linkedin.com/in/cameronbrick/)
 
+**Interested in a PhD or visiting our group?** Please read [Joining our group](/should-you-get-a-phd) first.
+
 </div>
 </div>
 
@@ -111,6 +113,8 @@ I consult for companies, universities, and governments with clients such as the 
 
 ## Publications
 
+[**All publications**](/publications)
+
 [**Google Scholar**](https://scholar.google.co.uk/citations?hl=en&user=MeoqEYgAAAAJ&view_op=list_works&sortby=pubdate)
 
 [**Societal Impact**](https://www.altmetric.com/explorer/report/d26a06af-73f4-4779-bfbd-8d246fd62531)
@@ -120,9 +124,9 @@ I consult for companies, universities, and governments with clients such as the 
 </div>
 <div class="col c10" markdown="1">
 
-Official PDFs are provided below. Most are already legal because they are open access. For others, “[Article 25fa of the Dutch Copyright Act](https://www.openaccess.nl/en/policies/open-access-in-dutch-copyright-law-taverne-amendment) (Taverne Amendment) allows researchers to share short scientific works (e.g. articles & book chapters), regardless of any restrictive publishers' guidelines.”
+### Recent
 
-{% include publications.html %}
+{% include publications-recent.html %}
 
 </div>
 </div>

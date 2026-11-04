@@ -1,6 +1,8 @@
 # The site menu. Edit here once; every page picks it up.
 - title: Main
   url: /
+- title: Publications
+  url: /publications
 - title: Open Science
   url: /openscience
 - title: CV
