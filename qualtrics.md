@@ -64,6 +64,46 @@ Embedded data from Prolific
 
     C\) Add the following JavaScript to the question where "extLink" matches the id of the link in (2) and "clicked" matches the embedded variable in (A).
 
-        Qualtrics.SurveyEngine.addOnload(function() {     $('extLink').on('click', function(name, event) {         Qualtrics.SurveyEngine.setEmbeddedData('clicked', '1');     }); });
+        Qualtrics.SurveyEngine.addOnload(function() {
+            $('extLink').on('click', function(name, event) {
+                Qualtrics.SurveyEngine.setEmbeddedData('clicked', '1');
+            });
+        });
 
-13. Pilot test your study before launching it! A lot! See https://twitter.com/CameronBrick/status/1468880976092741635
+13. **Discourage AI-assisted open-ended responses**: In a 2026 study, to avoid AI use in open-ended responses, we blocked copy-pasting but realized that participants could still insert text through other routes, such as autofill and drag-and-drop. To prevent AI-assisted responding, we generated a JavaScript snippet for text boxes that (1) blocks participants from copying the question text, (2) blocks pasting, (3) blocks drag-and-drop, and (4) blocks browser autofill. It does not prevent AI agents typing. If you have ideas on how best to detect or prevent this, please let us know.
+
+    Add this JavaScript to each open-ended text question:
+
+    ```javascript
+    Qualtrics.SurveyEngine.addOnload(function () {
+      var container = this.getQuestionContainer();
+      var box = container ? container.querySelector("textarea, input[type='text']") : null;
+      if (!box) { return; }
+      // ---- Page: block copying, selecting and right-clicking (question text included) ----
+      function blockEvent(e) { e.preventDefault(); }
+      document.addEventListener("copy", blockEvent);
+      document.addEventListener("cut", blockEvent);
+      document.addEventListener("contextmenu", blockEvent);
+      document.addEventListener("selectstart", function (e) {
+        if (e.target !== box) { e.preventDefault(); }
+      });
+      document.body.style.userSelect = "none";
+      document.body.style.webkitUserSelect = "none";
+      box.style.userSelect = "text";           // keep the text box usable
+      box.style.webkitUserSelect = "text";
+      // ---- Text box: no autofill ----
+      box.setAttribute("autocomplete", "off");
+      // ---- Text box: block paste and drag-and-drop ----
+      ["paste", "drop", "dragover"].forEach(function (evt) {
+        box.addEventListener(evt, blockEvent);
+      });
+      box.addEventListener("beforeinput", function (e) {
+        if (e.inputType === "insertFromPaste" || e.inputType === "insertFromDrop" ||
+            e.inputType === "insertFromYank"  || e.inputType === "insertFromPasteAsQuotation") {
+          e.preventDefault();
+        }
+      });
+    });
+    ```
+
+14. Pilot test your study before launching it! A lot! See https://twitter.com/CameronBrick/status/1468880976092741635

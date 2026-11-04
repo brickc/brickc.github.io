@@ -4,6 +4,8 @@ title: "Scrabble"
 permalink: /scrabble
 ---
 
+<p class="note">This page is not being updated. I do not add partner links, so please don't ask.</p>
+
 ![](/assets/img/scrabble.jpg)
 
 I used to play Scrabble competitively. I tried to avoid studying word lists or playing in tournaments, but I found myself slipping down that path. It was a riot. We describe plays with a special syntax. Lower-case letters are blank tiles. Letters inside parentheses were already on the board. Finally, a question mark is a blank that hasn't been decided yet.
