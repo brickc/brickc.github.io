@@ -15,7 +15,7 @@ redirect_from:
 
 Associate Professor of Social and Environmental Psychology, University of Amsterdam, Netherlands
 
-Our lab investigates how individuals and groups respond to collective-action problems such as climate change. We ask who helps, how, and under what conditions. Our work spans from individual consumer decisions (clothing purchases; transportation) to collective behaviors (policy support; advocacy; activism). We also produce basic science research on environmental attitudes and behavioral measurement. Crossing planetary boundaries poses urgent challenges, and our goal is to provide evidence that supports the transition to sustainable and circular societies.
+Our lab studies how individuals and organizations respond to collective-action problems such as climate change. We focus on actions with high environmental impact, regardless of motive. Our work ranges from consumption (clothing repair, recycled products) to collective and institutional action (policy support, activism, university air travel). We also study trust in science and climate communication, and aim to measure actual behavior, because intentions often diverge from action.
 
 2025 Robert B. Cialdini Prize, Society for Personality and Social Psychology  
 2022 Early Career Achievement, APA Div. 34 Environmental Psychology  
