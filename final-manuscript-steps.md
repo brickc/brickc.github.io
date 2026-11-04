@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Final Manuscript Steps"
+title: "Final manuscript steps"
 permalink: /final-manuscript-steps
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Thesis Quality"
+title: "Thesis quality"
 permalink: /thesis-quality
 ---
 

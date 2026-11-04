@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Oral Presentations"
+title: "Oral presentations"
 permalink: /oral-presentations
 ---
 

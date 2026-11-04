@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Cleaning & Analysis"
+title: "Cleaning & analysis"
 permalink: /cleaning-and-analysis
 ---
 

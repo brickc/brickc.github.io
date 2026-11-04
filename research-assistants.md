@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Research Assistants"
+title: "Research assistants"
 permalink: /research-assistants
 ---
 

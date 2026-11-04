@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Open Science"
+title: "Open science"
 permalink: /openscience
 ---
 

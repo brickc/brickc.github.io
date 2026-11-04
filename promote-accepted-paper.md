@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Promote Accepted Paper"
+title: "Promote accepted paper"
 permalink: /promote-accepted-paper
 ---
 

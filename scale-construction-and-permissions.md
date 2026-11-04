@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Scale Construction and Permissions"
+title: "Scale construction and permissions"
 permalink: /scale-construction-and-permissions
 ---
 

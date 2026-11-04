@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Letters of Rec"
+title: "Letters of rec"
 permalink: /letters-of-rec
 ---
 

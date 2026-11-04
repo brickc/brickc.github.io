@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Literature Search"
+title: "Literature search"
 permalink: /literature-search
 ---
 

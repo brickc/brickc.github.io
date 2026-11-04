@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "MRI Brain Scans"
+title: "MRI brain scans"
 permalink: /mri
 ---
 
