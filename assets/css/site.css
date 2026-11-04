@@ -57,6 +57,7 @@ code{font-size:.9em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monos
 pre{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:12px 14px;overflow-x:auto;font-size:13.5px;line-height:1.45}
 pre code{font-size:inherit}
 .content p,.content li{overflow-wrap:anywhere}
+.callout{margin-top:1.6em}
 .note{background:var(--panel);border-left:3px solid var(--link);padding:10px 14px;margin:0 0 1.5em}
 .right{float:right;margin:0 0 16px 24px;max-width:45%}
 .left{float:left;margin:0 24px 16px 0;max-width:45%}
