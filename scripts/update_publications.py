@@ -60,11 +60,42 @@ with open(out, 'w', encoding='utf-8') as f:
             + result + '\n</div>\n')
 print(f'Wrote {n_items} publications to {out}')
 
-# Front page: the first N_RECENT entries (the CV lists newest first), plus a link to the full list
-items = BeautifulSoup(result, 'html.parser').find_all('li')[:N_RECENT]
+# Front page: highlighted papers listed in highlights.txt (by DOI), from the last HIGHLIGHT_YEARS
+# years; if none qualify, fall back to the most recent N_RECENT entries (the CV lists newest first).
+import datetime, os
+HIGHLIGHT_YEARS = 5
+all_items = BeautifulSoup(result, 'html.parser').find_all('li')
+
+def item_year(li):
+    m = re.search(r'\((\d{4})', li.get_text(' '))
+    return int(m.group(1)) if m else None
+
+def item_dois(li):
+    return {m.group(1).lower().rstrip('.') for a in li.find_all('a', href=True)
+            for m in [re.search(r'(10\.\d{4,9}/[^\s?#]+)', a['href'])] if m}
+
+wanted = []
+if os.path.exists('highlights.txt'):
+    wanted = [l.strip().lower() for l in open('highlights.txt', encoding='utf-8')
+              if l.strip() and not l.lstrip().startswith('#')]
+    wanted = [re.sub(r'^(https?://)?(dx\.)?doi\.org/', '', d).rstrip('.') for d in wanted]
+cutoff = datetime.date.today().year - HIGHLIGHT_YEARS + 1
+chosen = []
+for d in wanted:
+    match = next((li for li in all_items if d in item_dois(li)), None)
+    if match is None:
+        print(f'::warning::Highlight DOI {d} not found in the CV publications')
+    elif (item_year(match) or 9999) < cutoff:
+        print(f'Highlight {d} is older than {HIGHLIGHT_YEARS} years; skipped')
+    else:
+        chosen.append(match)
+
+heading = 'Highlights' if chosen else 'Recent'
+items = chosen or all_items[:N_RECENT]
 recent_out = out.replace('publications.html', 'publications-recent.html')
 with open(recent_out, 'w', encoding='utf-8') as f:
     f.write('<!-- Generated from the CV by scripts/update_publications.py. Do not edit by hand. -->\n'
+            f'<h3>{heading}</h3>\n'
             '<ul class="publications pub-recent">\n' + '\n'.join(str(li) for li in items) + '\n</ul>\n'
             f'<p><a href="/publications">All {n_items} publications →</a></p>\n')
-print(f'Wrote {len(items)} recent publications to {recent_out}')
+print(f'Wrote {len(items)} {heading.lower()} publications to {recent_out}')

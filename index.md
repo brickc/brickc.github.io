@@ -125,8 +125,6 @@ I consult for companies, universities, and governments with clients such as the 
 </div>
 <div class="col c10" markdown="1">
 
-### Recent
-
 {% include publications-recent.html %}
 
 </div>

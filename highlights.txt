@@ -1,0 +1,3 @@
+# Highlighted papers for the front page, one DOI per line, in the order to show them.
+# Entries are taken from the CV; papers older than five years drop off automatically.
+# If this list is empty (or every paper has aged out), the front page shows the most recent papers instead.
