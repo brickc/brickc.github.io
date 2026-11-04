@@ -21,7 +21,7 @@
     - { title: Literature search, url: /literature-search }
     - { title: Letters of rec, url: /letters-of-rec }
     - { title: Research assistants, url: /research-assistants }
-    - { title: Should you get a PhD?, url: /should-you-get-a-phd }
+    - { title: Joining our group, url: /should-you-get-a-phd }
     - { title: Scale construction and permissions, url: /scale-construction-and-permissions }
 - title: Other
   children:

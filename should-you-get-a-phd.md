@@ -1,15 +1,23 @@
 ---
 layout: default
-title: "Should you get a PhD?"
+title: "Joining our group"
 permalink: /should-you-get-a-phd
 redirect_from:
   - /should-i-get-a-phd
 ---
 
 ## Joining our group
-Thank you for your interest in our group. I receive many requests each year, and this volume means I can't reply to each one individually. This page provides the general information and advice I would otherwise send, and helps you plan and judge your realistic options.
+Thank you for your interest in our group. I receive many requests each year and can't reply to each one individually. This page gives the information I would otherwise send, by type of request.
 
-Most PhD positions in our group are funded by grants. When we advertise a PhD, we post the opening publicly through the [university](https://werkenbij.uva.nl/en/vacancies?f=74) and on [LinkedIn](https://www.linkedin.com/in/cameronbrick/). If you want to work with us, the most likely route is to apply to one of these openings when it appears.
+**PhD positions.** Most PhD positions in our group are funded by grants. When we have an opening, we post it through the [university](https://werkenbij.uva.nl/en/vacancies?f=74) and on [LinkedIn](https://www.linkedin.com/in/cameronbrick/). Applying to a posted opening is the most likely route. To bring your own funding, see [External funding](#external-funding) below.
+
+**Visiting PhD students and researchers.** I rarely have capacity to host visitors, even when the visit is fully funded. I consider a visit only when it builds on an existing collaboration or a concrete joint project that fits our current work.
+
+**Internships.** I can't host internships for students outside the UvA. For UvA students, I sometimes supervise internships, but only through course internships.
+
+**Research assistants.** See [Research assistants](/research-assistants).
+
+**Postdoctoral fellowships.** If you plan to apply for a fellowship to work with our group (e.g., Marie Skłodowska-Curie, NWO Veni), send me a short draft proposal well before the deadline. The same criteria apply as for self-funded PhDs below.
 
 ## External funding
 The alternative is to bring your own funding. There's no easy path, but if you find a plausible grant or fellowship, for example through a national science foundation in your country, write up a draft research proposal and send it to me. If it's a good fit, I may collaborate on the plan and write a letter of support. Fit with our research program is essential. At my university, a four-year PhD project costs close to half a million euros. I apologize that there aren't more opportunities.

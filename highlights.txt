@@ -1,3 +1,8 @@
 # Highlighted papers for the front page, one DOI per line, in the order to show them.
 # Entries are taken from the CV; papers older than five years drop off automatically.
 # If this list is empty (or every paper has aged out), the front page shows the most recent papers instead.
+https://doi.org/10.1098/rsos.260140
+https://www.nature.com/articles/s41586-025-10078-y
+https://dx.doi.org/10.1002/casp.70243
+https://doi.org/10.5964/gep.11705
+http://doi.org/10.1039/d5va00037h

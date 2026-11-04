@@ -70,19 +70,34 @@ def item_year(li):
     m = re.search(r'\((\d{4})', li.get_text(' '))
     return int(m.group(1)) if m else None
 
+DOI_RE = r'(10\.\d{4,9}/[^\s?#"<>]+)'
+
+def norm(doi):
+    return doi.lower().rstrip('.')
+
 def item_dois(li):
-    return {m.group(1).lower().rstrip('.') for a in li.find_all('a', href=True)
-            for m in [re.search(r'(10\.\d{4,9}/[^\s?#]+)', a['href'])] if m}
+    # DOIs from link targets and link text (some links go to the publisher, with the DOI as link text)
+    found = set()
+    for a in li.find_all('a', href=True):
+        for text in (a['href'], a.get_text()):
+            found.update(norm(m) for m in re.findall(DOI_RE, text))
+    return found
+
+def wanted_key(line):
+    # accepts a bare DOI, a doi.org link, or a publisher link such as nature.com/articles/<id>
+    m = re.search(DOI_RE, line)
+    return norm(m.group(1)) if m else norm(line.rstrip('/').rsplit('/', 1)[-1])
 
 wanted = []
 if os.path.exists('highlights.txt'):
     wanted = [l.strip().lower() for l in open('highlights.txt', encoding='utf-8')
               if l.strip() and not l.lstrip().startswith('#')]
-    wanted = [re.sub(r'^(https?://)?(dx\.)?doi\.org/', '', d).rstrip('.') for d in wanted]
+    wanted = [wanted_key(d) for d in wanted]
 cutoff = datetime.date.today().year - HIGHLIGHT_YEARS + 1
 chosen = []
 for d in wanted:
-    match = next((li for li in all_items if d in item_dois(li)), None)
+    match = next((li for li in all_items if d in item_dois(li)
+                  or any(d in norm(a['href']) for a in li.find_all('a', href=True))), None)
     if match is None:
         print(f'::warning::Highlight DOI {d} not found in the CV publications')
     elif (item_year(match) or 9999) < cutoff:
@@ -90,7 +105,7 @@ for d in wanted:
     else:
         chosen.append(match)
 
-heading = 'Highlights' if chosen else 'Recent'
+heading = 'Recent highlights' if chosen else 'Recent'
 items = chosen or all_items[:N_RECENT]
 recent_out = out.replace('publications.html', 'publications-recent.html')
 with open(recent_out, 'w', encoding='utf-8') as f:
