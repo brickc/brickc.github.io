@@ -93,3 +93,5 @@ ul.pub-recent li{margin:0 0 .8em}
   .dropdown ul{right:auto;left:0;min-width:min(260px,calc(100vw - 32px))}
   .right,.left{float:none;display:block;margin:0 0 16px;max-width:100%}
 }
+
+.wrap-code pre{white-space:pre-wrap;overflow-wrap:anywhere}
