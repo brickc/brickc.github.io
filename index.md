@@ -28,7 +28,7 @@ Our lab studies how individuals and organizations respond to collective-action p
 
 <hr>
 
-## Larger Grants (PI and co-PI)
+## Large Grants (PI and co-PI)
 
 <div class="row">
 <div class="col c2" markdown="1">
