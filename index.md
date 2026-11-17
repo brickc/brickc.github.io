@@ -76,7 +76,7 @@ I teach in BSc *Social Psychology*, BSc *Politics, Psychology, Law & Economics*,
 
 - [Interested in doing a PhD here?](/should-you-get-a-phd)
 
-- PhD students: [Anna Bosshard](https://scholar.google.com/citations?hl=en&user=kVr-e_4AAAAJ), [Anna Sach](https://psyres.uva.nl/profile/s/a/a.a.sach/a.a.sach.html), Linli Zhou; [Rana Abo Seada](https://www.uva.nl/en/profile/a/b/r.abo-seada/r.abo-seada.html), Erik Verhagen
+- PhD students: [Anna Bosshard](https://scholar.google.com/citations?hl=en&user=kVr-e_4AAAAJ), [Anna Sach](https://psyres.uva.nl/profile/s/a/a.a.sach/a.a.sach.html), Linli Zhou; co-supervised: [Rana Abo Seada](https://www.uva.nl/en/profile/a/b/r.abo-seada/r.abo-seada.html), Erik Verhagen
 
 - PhD graduates: [Maria Zwicker](https://scholar.google.com/citations?hl=en&oi=ao&user=frgUWHkAAAAJ), [Anna Castiglione](https://webapps.unitn.it/du/it/Persona/PER0229494)
 
