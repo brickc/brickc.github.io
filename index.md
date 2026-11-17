@@ -23,7 +23,7 @@ Our lab studies how individuals and organizations respond to collective-action p
 
 [c.brick@uva.nl](mailto:c.brick@uva.nl) ⬩ [LinkedIn](https://www.linkedin.com/in/cameronbrick/)
 
-**Interested in a PhD or visiting our group?** Please [read this first](/should-you-get-a-phd).
+**[Interested in a PhD or visiting our group?](/should-you-get-a-phd)**
 {: .callout}
 
 </div>
